@@ -76,7 +76,7 @@ plt.show()
 ```
 
 
-![1.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1646184/d37b9afc-7016-2656-d526-686be31a9cb9.png)
+![1.png](files/1.png)
 
 
 画像は32x32で小さいですが、人間なら識別できますね。ただ本当に人間が分類するとなると100個の分類を覚えるのが大変です。何十万件も分類させられたらうっかり数％は間違えそうです。
@@ -213,7 +213,7 @@ print(len(train_dataset), len(test_dataset))
 一気に全てのセルを実行するときに実行したくないので、コードは全てコメントアウトしておきます。
 実行すると、下の画像のようにコア数と同数のプログレスバーが表示されます。
 
-![2.png]()
+![2.png](files/2.png)
 
 なお、本来実行するコードを確認用に切り詰めて編集したので、以下のコードは途中でエラーになって止まります。
 プログレスバーで確認できたら、処理を中止して次の6.に進んでください。
@@ -644,7 +644,7 @@ xmp.spawn(map_fn, args=(flags,), nprocs=8, start_method='fork')
 %reload_ext tensorboard
 %tensorboard --logdir /content/drive/MyDrive/log
 ```
-![3.png]()
+![3.png](files/3.png)
 
 
-![4.png]()
+![4.png](files/4.png)
