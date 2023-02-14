@@ -1,6 +1,6 @@
 # PyTorch最新モデルでマルチコアTPUの本気を試す
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Soliton-Analytics-Team/Colab-Multicore-TPU/blob/main/ColabMulticoreTPU.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/saliton/Colab-Multicore-TPU/blob/main/ColabMulticoreTPU.ipynb)
 
 ## 1. はじめに
 
